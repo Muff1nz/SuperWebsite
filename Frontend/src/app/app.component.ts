@@ -17,7 +17,7 @@ export class AppComponent {
       this.connection.stop();
     }   
 
-    this.connection = new HubConnectionBuilder().withUrl("http://localhost:5254/hub", {
+    this.connection = new HubConnectionBuilder().withUrl("http://localhost:5254/hub/testhub", {
       skipNegotiation: true, 
       withCredentials: false, 
       transport: HttpTransportType.WebSockets}

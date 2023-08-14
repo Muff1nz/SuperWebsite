@@ -1,7 +1,7 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/hub",
+      "DownstreamPathTemplate": "/hub/{any}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -9,7 +9,20 @@
           "Port": 7158
         }
       ],
-      "UpstreamPathTemplate": "/hub"
+      "UpstreamPathTemplate": "/hub/{any}",
+      "Priority": 0
+    },
+    {
+      "DownstreamPathTemplate": "/hub/testhub",
+      "DownstreamScheme": "ws",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7158
+        }
+      ],
+      "UpstreamPathTemplate": "/hub/testhub",
+      "Priority": 1
     }
   ],
   "GlobalConfiguration": {
