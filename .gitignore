@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Frontend/.vscode
+/OcelotGateway/.vs
+/OcelotGateway/OcelotGateway/bin/Debug/net6.0
+/OcelotGateway/OcelotGateway/obj
+/SignalR_Hub/.vs
+/SignalR_Hub/SignalR_Hub/bin/Debug/net6.0
+/SignalR_Hub/SignalR_Hub/obj
