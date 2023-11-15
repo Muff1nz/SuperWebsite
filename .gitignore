@@ -9,3 +9,6 @@
 /SignalR_Hub/.vs
 /SignalR_Hub/SignalR_Hub/bin/Debug/net6.0
 /SignalR_Hub/SignalR_Hub/obj
+/Backend/.vs/Backend
+/Backend/bin/Debug/net7.0
+/Backend/obj
