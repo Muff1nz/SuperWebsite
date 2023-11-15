@@ -4,9 +4,16 @@
   <title>Super Website</title>
 </head>
 <body>
-  <h1>This website is super great</h1>
-  <button (click)="onConnect()">Click me to connect to SignalR</button>
-  <button (click)="onDisconnect()">Click me to disconnect from SignalR</button>
-  <p>Connection status: {{status}}</p>
+  <h1>Super Website: frontend for testing stuff</h1>
+  <mat-tab-group>
+     <mat-tab label="SignalR Test">
+      <br/>
+      <app-signalr-test></app-signalr-test>
+     </mat-tab>
+     <mat-tab label="RabbitMQ Test">
+      <br/>
+      <app-rabbit-mq-test></app-rabbit-mq-test>
+     </mat-tab>
+  </mat-tab-group> 
 </body>
 </html>

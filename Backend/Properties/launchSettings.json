@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "RabbitMQ.Service.One": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7777",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
