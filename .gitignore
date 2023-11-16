@@ -12,3 +12,12 @@
 /Backend/.vs/Backend
 /Backend/bin/Debug/net7.0
 /Backend/obj
+/Backend/.vs/ProjectEvaluation
+/Backend/RabbitMQ.Service.Demo/bin/Debug/net7.0
+/Backend/RabbitMQ.Service.Demo/obj
+/Backend/RabbitMQ.Service.One/bin/Debug/net7.0
+/Backend/RabbitMQ.Service.One/obj
+/Backend/RabbitMQ.Service.Three/bin/Debug/net7.0
+/Backend/RabbitMQ.Service.Three/obj
+/Backend/RabbitMQ.Service.Two/bin/Debug/net7.0
+/Backend/RabbitMQ.Service.Two/obj

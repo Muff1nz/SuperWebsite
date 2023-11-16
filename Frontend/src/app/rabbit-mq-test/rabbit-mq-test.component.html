@@ -1,6 +1,38 @@
-<div>
-    <button (click)="sendRabbitMQOne(messageInput.value)">Send message to RabbitMQ</button>
-</div>
-<div>
-    <input type="text" #messageInput>
+<div class="wololo">
+    <div>
+        <button (click)="sendRabbitMQAck(messageInput1.value)">Send message to RabbitMQ (Ack)</button>
+    </div>
+    <div>
+        <label>Message:</label>
+        <input type="text" #messageInput1>
+    </div>
+    <br/>
+    <div>
+        <button (click)="sendRabbitMQNoAck(messageInput2.value)">Send message to RabbitMQ (NoAck)</button>
+    </div>
+    <div>
+        <label>Message:</label>
+        <input type="text" #messageInput2>
+    </div>
+    <br/>
+    <div>
+        <button (click)="sendRabbitMQVoid(messageInput3.value)">Send message to RabbitMQ (Void)</button>
+    </div>
+    <div>
+        <label>Message:</label>
+        <input type="text" #messageInput3>
+    </div>
+    <br/>
+    <br/>
+    <div>
+        <button (click)="sendRabbitMQTopic(topic.value, topicMessage.value)">Send message to RabbitMQ (Topic)</button>
+    </div>
+    <div>
+        <label>Topic:</label>
+        <input type="text" #topic>
+    </div>
+    <div>
+        <label>Message:</label>
+        <input type="text" #topicMessage>
+    </div>
 </div>
